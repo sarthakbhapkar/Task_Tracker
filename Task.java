@@ -9,6 +9,8 @@ public class Task {
     @NotBlank
     private String title;
 
+    private String description;
+    private LocalDate dueDate;
     private boolean completed;
 
     // getters and setters
